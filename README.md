@@ -26,4 +26,10 @@
 
 [![status](https://github-readme-stats.vercel.app/api/top-langs/?username=JoaoBittencourt1&layout=donut)](https://github.com/JoaoBittencourt1)
 
+###
+
+<img src="https://raw.githubusercontent.com/JoaoBittencourt1/JoaoBittencourt1/output/snake.svg" alt="Snake animation" />
+
+###
+
 
