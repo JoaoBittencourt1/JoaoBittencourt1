@@ -1,4 +1,4 @@
-# olá! eu sou João Vitor🖐️
+# olá! eu sou João Bittencourt🖐️
 
 
 [![instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white
