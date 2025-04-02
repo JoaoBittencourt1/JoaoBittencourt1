@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira%2BCode&size=25&pause=2000&color=0BF724&center=true&vCenter=true&repeat=false&width=435&lines=-ol%C3%A1!+eu+sou+Jo%C3%A3o+Bittencourt">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=22E11D&width=435&lines=Welcome+to+my+Github!">
 </p>
+
 
 #
 <p align ="center">Sou João Vitor Alves Bittencourt, tenho 19 anos e sou aluno do terceiro semestre de Ciência da Computação na UCB. Amo tecnologia e estou sempre buscando novos aprendizados. Trabalhei por seis meses como freelancer na área de front-end com React, desenvolvendo aplicações web dinâmicas. Atualmente, estou focado em back-end com Java, estudando Spring Boot, MySQL e desenvolvimento de APIs REST. Tenho experiência em trabalho em equipe e liderança, habilidades que desenvolvi ao participar de projetos acadêmicos e pessoais. Meu objetivo é me tornar um desenvolvedor full stack e aprofundar meus conhecimentos em arquitetura de software.
