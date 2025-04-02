@@ -1,11 +1,20 @@
-# olá! eu sou João Bittencourt🖐️
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira%2BCode&size=25&pause=2000&color=0BF724&center=true&vCenter=true&repeat=false&width=435&lines=-ol%C3%A1!+eu+sou+Jo%C3%A3o+Bittencourt">
+</p>
 
+#
+<p align ="center">Sou João Vitor Alves Bittencourt, tenho 19 anos e sou aluno do terceiro semestre de Ciência da Computação na UCB. Amo tecnologia e estou sempre buscando novos aprendizados. Trabalhei por seis meses como freelancer na área de front-end com React, desenvolvendo aplicações web dinâmicas. Atualmente, estou focado em back-end com Java, estudando Spring Boot, MySQL e desenvolvimento de APIs REST. Tenho experiência em trabalho em equipe e liderança, habilidades que desenvolvi ao participar de projetos acadêmicos e pessoais. Meu objetivo é me tornar um desenvolvedor full stack e aprofundar meus conhecimentos em arquitetura de software.
+</p>
+
+#
 
 [![instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white
 )](https://www.instagram.com/jbittencourt1/)
 [![twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white
 )](https://x.com/jaobittencourt7)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-bittencourt-b63739338/)
+
+#
 
 
 # tecnologias
