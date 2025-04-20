@@ -5,7 +5,7 @@
 
 
 #
-<p align ="center">Sou João Vitor Alves Bittencourt, tenho 19 anos e sou aluno do terceiro semestre de Ciência da Computação na UCB. Amo tecnologia e estou sempre buscando novos aprendizados. Trabalhei por seis meses como freelancer na área de front-end com React, desenvolvendo aplicações web dinâmicas. Atualmente, estou focado em back-end com Java, estudando Spring Boot, MySQL e desenvolvimento de APIs REST. Tenho experiência em trabalho em equipe e liderança, habilidades que desenvolvi ao participar de projetos acadêmicos e pessoais. Meu objetivo é me tornar um desenvolvedor full stack e aprofundar meus conhecimentos em arquitetura de software.
+<p align ="center">Sou João Vitor Alves Bittencourt, tenho 19 anos e sou aluno do terceiro semestre de Ciência da Computação na UCB. Amo tecnologia e estou sempre em busca de novos aprendizados. Trabalhei por seis meses como freelancer na área de front-end com React, desenvolvendo aplicações web dinâmicas. Atualmente, estou focado em back-end com Java, estudando Spring Boot, MySQL e desenvolvimento de APIs REST. Tenho experiência em trabalho em equipe e liderança, habilidades que desenvolvi ao participar de projetos acadêmicos, nos quais atuei como líder e também como Scrum Master em projetos de residência tecnológica da minha universidade. Meu objetivo é me tornar um desenvolvedor full stack e aprofundar meus conhecimentos em arquitetura de software.
 </p>
 
 #
