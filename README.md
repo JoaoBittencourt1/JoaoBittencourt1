@@ -15,7 +15,7 @@
 
 ### tecnologias
 
-### 🧠 Tecnologias
+###  Tecnologias
 
 | Front-End | Back-End / Banco de Dados | Ferramentas & Outros |
 |-----------|----------------------------|------------------------|
