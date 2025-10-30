@@ -33,15 +33,4 @@
 | &nbsp; | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" height="30"/> NPM | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nano/nano-plain.svg" height="30"/> Nano |
 
 
-// <div>
-# <img height ="180cm" src="https://github-readme-stats.vercel.app/api?username=joaobittencourt1&show_icons=true&theme=dark"/>
-# <img height ="180cm" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaobittencourt1&hide=html&theme=dark"/>
-// </div>
 
----
-
-###
-
-# <img src="https://raw.githubusercontent.com/JoaoBittencourt1/JoaoBittencourt1/output/snake.svg" alt="Snake animation" />
-
-###
