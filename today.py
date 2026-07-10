@@ -69,6 +69,23 @@ def graph_commits(start_date, end_date):
     return int(request.json()['data']['user']['contributionsCollection']['contributionCalendar']['totalContributions'])
 
 
+def total_contributions(created_at):
+    """
+    Sums total contributions across every year since account creation, matching the
+    number shown on the GitHub profile contribution graph (commits, PRs, issues, reviews).
+    contributionsCollection only allows a date range of up to 1 year, so we loop year by year.
+    """
+    start = datetime.datetime.strptime(created_at, '%Y-%m-%dT%H:%M:%SZ')
+    now = datetime.datetime.utcnow()
+    total = 0
+    year_start = start
+    while year_start < now:
+        year_end = min(year_start + relativedelta.relativedelta(years=1), now)
+        total += graph_commits(year_start.strftime('%Y-%m-%dT%H:%M:%SZ'), year_end.strftime('%Y-%m-%dT%H:%M:%SZ'))
+        year_start = year_end
+    return total
+
+
 def graph_repos_stars(count_type, owner_affiliation, cursor=None, add_loc=0, del_loc=0):
     """
     Uses GitHub's GraphQL v4 API to return my total repository, star, or lines of code count.
@@ -432,7 +449,7 @@ if __name__ == '__main__':
     formatter('age calculation', age_time)
     total_loc, loc_time = perf_counter(loc_query, ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'], 7)
     formatter('LOC (cached)', loc_time) if total_loc[-1] else formatter('LOC (no cache)', loc_time)
-    commit_data, commit_time = perf_counter(commit_counter, 7)
+    commit_data, commit_time = perf_counter(total_contributions, acc_date)
     star_data, star_time = perf_counter(graph_repos_stars, 'stars', ['OWNER'])
     repo_data, repo_time = perf_counter(graph_repos_stars, 'repos', ['OWNER'])
     contrib_data, contrib_time = perf_counter(graph_repos_stars, 'repos', ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'])
