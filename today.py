@@ -51,22 +51,32 @@ def simple_request(func_name, query, variables):
 
 def graph_commits(start_date, end_date):
     """
-    Uses GitHub's GraphQL v4 API to return my total commit count
+    Uses GitHub's GraphQL v4 API to return my total contribution count for a time window.
+    Sums the public contribution types plus restrictedContributionsCount (private
+    contributions, as an aggregate) so the number matches the profile's contribution graph
+    even when "Include private contributions on my profile" is off.
     """
     query_count('graph_commits')
     query = '''
     query($start_date: DateTime!, $end_date: DateTime!, $login: String!) {
         user(login: $login) {
             contributionsCollection(from: $start_date, to: $end_date) {
-                contributionCalendar {
-                    totalContributions
-                }
+                totalCommitContributions
+                totalIssueContributions
+                totalPullRequestContributions
+                totalPullRequestReviewContributions
+                restrictedContributionsCount
             }
         }
     }'''
     variables = {'start_date': start_date,'end_date': end_date, 'login': USER_NAME}
     request = simple_request(graph_commits.__name__, query, variables)
-    return int(request.json()['data']['user']['contributionsCollection']['contributionCalendar']['totalContributions'])
+    c = request.json()['data']['user']['contributionsCollection']
+    return (int(c['totalCommitContributions'])
+            + int(c['totalIssueContributions'])
+            + int(c['totalPullRequestContributions'])
+            + int(c['totalPullRequestReviewContributions'])
+            + int(c['restrictedContributionsCount']))
 
 
 def total_contributions(created_at):
