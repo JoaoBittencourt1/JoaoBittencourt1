@@ -44,7 +44,7 @@ text, tspan {white-space: pre;}
 <text x="545" y="40" fill="#c9d1d9">
 <tspan x="545" y="40">joao@bittencourt</tspan> ------------------------------------------------------------
 <tspan x="545" y="65" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> .......................................... </tspan><tspan class="value">Linux, macOS, Windows</tspan>
-<tspan x="545" y="85" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ................................ </tspan><tspan class="value" id="age_data">20 years, 4 months, 23 days</tspan>
+<tspan x="545" y="85" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ................................ </tspan><tspan class="value" id="age_data">20 years, 4 months, 24 days</tspan>
 <tspan x="545" y="105" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ........................................... </tspan><tspan class="value">Software Developer</tspan>
 <tspan x="545" y="125" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ....................................... </tspan><tspan class="value">Full-Stack Developer</tspan>
 <tspan x="545" y="145" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ...................................... </tspan><tspan class="value">VSCode, IntelliJ, Cursor</tspan>
