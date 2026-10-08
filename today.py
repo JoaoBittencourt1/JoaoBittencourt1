@@ -45,6 +45,8 @@ def simple_request(func_name, query, variables):
     """
     request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables':variables}, headers=HEADERS)
     if request.status_code == 200:
+        errors = request.json().get('errors')
+        if errors: print('GraphQL errors in', func_name, ':', errors)
         return request
     raise Exception(func_name, ' has failed with a', request.status_code, request.text, QUERY_COUNT)
 
@@ -272,7 +274,9 @@ def stars_counter(data):
     Count total stars in repositories owned by me
     """
     total_stars = 0
-    for node in data: total_stars += node['node']['stargazers']['totalCount']
+    for node in data:
+        if node['node'] is None: continue
+        total_stars += node['node']['stargazers']['totalCount']
     return total_stars
 
 
